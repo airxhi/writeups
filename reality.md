@@ -46,3 +46,5 @@ Now, very interestingly, we can augment this matrix with a 6x6 identity matrix w
     0  0  0  1  0  0  x1**1  x2**1  x3**1
     0  0  0  0  1  0  x1**0  x2**0  x3**0
     0  0  0  0  0  1  y1     y2     y3
+
+Now wtf do you do from here and why.
