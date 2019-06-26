@@ -38,4 +38,11 @@ We're going to represent our current information in a 3x6 matrix where the first
     x1**0  x2**0  x3**0
     y1     y2     y3
     
-Now, very interestingly, we have 6
+Now, very interestingly, we can augment this matrix with a 6x6 identity matrix where each column is the coefficient for the 4-i'th x-term (and the last column being the coefficient of the y value).
+
+    1  0  0  0  0  0  x1**4  x2**4  x3**4
+    0  1  0  0  0  0  x1**3  x2**3  x3**3
+    0  0  1  0  0  0  x1**2  x2**2  x3**2
+    0  0  0  1  0  0  x1**1  x2**1  x3**1
+    0  0  0  0  1  0  x1**0  x2**0  x3**0
+    0  0  0  0  0  1  y1     y2     y3
